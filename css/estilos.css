@@ -1,0 +1,55 @@
+nav{
+	background: green;
+}
+
+.weapper{
+	clear: both;
+}
+
+section[class="main"] article{
+	background: grey;
+	width: 60%;
+	border: black 2px solid;
+	margin: 20px;
+	padding: 10px;
+}
+aside{
+	position: absolute;
+	left: 850px;
+	top: 130px;
+	width: 30%;
+	background: orange;
+	border: black 2px solid;
+	margin: 20px;
+	padding: 10px;
+}
+footer{
+	width: 100%;
+	height: 50px;
+	background: #59D460;
+	padding: 4px;
+	text-align: center;
+}
+#nav li{
+	position: relative;
+	top: 6px;
+	display: inline;
+	text-align: center;
+	color:black;
+	margin: 25px;
+
+}
+
+#nav li a{
+	padding: 2px 20px 2px 20px;
+	color:black;
+	/*background-color: green;*/
+	border: 1px solid black;
+	text-decoration:none;
+}
+#nav ul{
+	background: #47E5BA;
+	height: 30px;
+	list-style-type:none;
+	text-align: center;
+}
